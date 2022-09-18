@@ -62,9 +62,7 @@ async function uploadArtifacts() {
   }
 
   if (
-    process.env.ATOM_RELEASES_S3_KEY &&
-    process.env.ATOM_RELEASES_S3_SECRET &&
-    process.env.ATOM_RELEASES_S3_BUCKET
+    process.env.ATOM_RELEASES_AZURE_CONN_STRING
   ) {
     console.log(
       `Uploading ${
@@ -79,7 +77,7 @@ async function uploadArtifacts() {
     );
   } else {
     console.log(
-      '\nEnvironment variables "ATOM_RELEASES_S3_BUCKET", "ATOM_RELEASES_S3_KEY" and/or "ATOM_RELEASES_S3_SECRET" are not set, skipping S3 upload.'
+      '\nEnvironment variable "process.env.ATOM_RELEASES_AZURE_CONN_STRING," is not set, skipping Azure upload.'
     );
   }
 
