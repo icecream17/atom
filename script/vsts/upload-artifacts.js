@@ -75,7 +75,7 @@ async function uploadArtifacts() {
     );
   } else {
     console.log(
-      '\nEnvironment variable "process.env.ATOM_RELEASES_AZURE_CONN_STRING," is not set, skipping Azure upload.'
+      '\nEnvironment variable "process.env.ATOM_RELEASES_AZURE_CONN_STRING" is not set, skipping Azure upload.'
     );
   }
 
