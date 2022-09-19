@@ -61,9 +61,7 @@ async function uploadArtifacts() {
     return;
   }
 
-  if (
-    process.env.ATOM_RELEASES_AZURE_CONN_STRING
-  ) {
+  if (process.env.ATOM_RELEASES_AZURE_CONN_STRING) {
     console.log(
       `Uploading ${
         assets.length
