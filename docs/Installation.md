@@ -45,7 +45,7 @@ repeat these steps to upgrade to future releases. -->
 
 Currently, to get binaries based on code by the Atom community:
 
-1. Visit https://autumnblazey.github.io/atomcommunity-pipelines/ and click on a run to view available binaries.
+1. Visit https://atom-community.github.io/atomcommunity-pipelines/ and click on a run to view available binaries.
 1. Click the desired binary for your platform to download. (If there is no binary for your platform, try viewing another run.)
 1. After the download is complete, extract the archive and run the executable.
 1. (Optional): To ensure you have a usable build, visit the associated CI run by clicking "(link to azure)".
