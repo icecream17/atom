@@ -39,7 +39,7 @@
 
 <!---------------------------------------------------------------->
 
-[Guidelines]: https://github.com/logos 'Branding Guidelines'
+[Guidelines]: https://github.com/logos 'Branding Guidelines. Please note that the branding guidelines accessible through the following link are the official branding guidelines for GitHub, and not a branding guideline created by the Atom Community.'
 [Electron]: https://github.com/electron/electron
 [Discord]: https://discord.gg/2tD9evh8qP 'Join the Atom Community Discord today!'
 [Status]: https://dev.azure.com/atomcommunity/atomcommunity/_build/latest?definitionId=10&branchName=master
