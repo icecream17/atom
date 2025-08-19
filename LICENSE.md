@@ -1,4 +1,6 @@
 Copyright (c) 2011-2022 GitHub Inc.
+<br/>
+Copyright (c) 2020-present Atom Community.
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
